@@ -11,13 +11,13 @@ spec:
     #version: "2.0.0"
   outputs:
     - key: vpc_id
-      moduleOutputName: this_vpc_id
+      moduleOutputName: vpc_id
     - key: private_subnets
-      moduleOutputName: this_private_subnets
+      moduleOutputName: private_subnets
     - key: public_subnets
-      moduleOutputName: this_public_subnets
+      moduleOutputName: public_subnets
     - key: vpc_cidr_block
-      moduleOutputName: this_vpc_cidr_block
+      moduleOutputName: vpc_cidr_block
   variables:
     - key: AWS_DEFAULT_REGION
       valueFrom:
