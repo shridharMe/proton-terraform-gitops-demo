@@ -8,7 +8,6 @@ spec:
   secretsMountPath: "/tmp/secrets"
   module:
     source: "git::https://github.com/shridharMe/proton-terraform-demo.git//vpc-dev/?ref=main"
-    #version: "2.0.0"
   outputs:
     - key: vpc_id
       moduleOutputName: vpc_id
