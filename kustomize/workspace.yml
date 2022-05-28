@@ -7,7 +7,7 @@ spec:
   organization: shridharMe
   secretsMountPath: "/tmp/secrets"
   module:
-    source: "git::https://github.com/shridharMe/proton-terraform-demo.git//vpc-dev/?ref=main"
+    source: "git::https://github.com/shridharMe/proton-terraform-demo.git//vpc-dev/?ref=1.0"
   outputs:
     - key: vpc_id
       moduleOutputName: vpc_id
