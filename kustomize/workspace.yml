@@ -4,7 +4,7 @@ metadata:
   name: greetings
 spec:
   module:
-    source: git::https://github.com/shridharMe/proton-terraform-demo.git//vpc-dev/?ref=1.0.10
+    source: git::https://github.com/shridharMe/proton-terraform-demo.git//vpc-dev/?ref=1.0.11
   organization: shridharMe
   outputs:
   - key: vpc_id
