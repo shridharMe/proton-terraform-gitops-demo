@@ -5,7 +5,7 @@ metadata:
   namespace: edu
 spec:
   module:
-    source: git::https://github.com/shridharMe/proton-terraform-demo.git//vpc-dev/?ref=1.0.43
+    source: git::https://github.com/shridharMe/proton-terraform-demo.git//vpc-dev/?ref=1.0.44
   organization: shridharMe
   outputs:
   - key: vpc_id
