@@ -5,7 +5,7 @@ metadata:
   namespace: edu
 spec:
   module:
-    source: git::https://github.com/shridharMe/proton-terraform-demo.git//vpc-dev/?ref=1.0.44
+    source: git::https://github.com/shridharMe/proton-terraform-demo.git//vpc-dev/?ref=1.0.45
   organization: shridharMe
   outputs:
   - key: vpc_id
@@ -24,7 +24,7 @@ spec:
     valueFrom:
       configMapKeyRef:
         key: region
-        name: aws-configuration
+        name: aws-configurationvpc-test
   - environmentVariable: true
     key: AWS_ACCESS_KEY_ID
     sensitive: true

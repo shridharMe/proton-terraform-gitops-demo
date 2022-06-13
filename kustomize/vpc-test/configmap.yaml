@@ -1,7 +1,6 @@
-# configmap.yml
 apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: aws-configuration
 data:
   region: us-east-2
+kind: ConfigMap
+metadata:
+  name: aws-configurationvpc-test
