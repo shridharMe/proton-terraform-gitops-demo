@@ -2,8 +2,3 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
 - vpc-dev/workspace.yaml
-- vpc-dev/configmap.yaml
-- vpc-dev-test/workspace.yaml
-- vpc-dev-test/configmap.yaml
-- vpc-dev-test2/workspace.yaml
-- vpc-dev-test2/configmap.yaml
