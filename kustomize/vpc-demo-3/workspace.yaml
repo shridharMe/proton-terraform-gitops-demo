@@ -1,0 +1,40 @@
+apiVersion: app.terraform.io/v1alpha1
+kind: Workspace
+metadata:
+  name: vpc-demo-3
+  namespace: edu
+spec:
+  module:
+    source: git::https://github.com/shridharMe/proton-terraform-demo//vpc-demo-3/?ref=1.0.65
+  organization: shridharMe
+  outputs:
+  - key: vpc_id
+    moduleOutputName: vpc_id
+  - key: private_subnets
+    moduleOutputName: private_subnets
+  - key: public_subnets
+    moduleOutputName: public_subnets
+  - key: vpc_cidr_block
+    moduleOutputName: vpc_cidr_block
+  secretsMountPath: /tmp/secrets
+  variables:
+  - environmentVariable: true
+    key: AWS_DEFAULT_REGION
+    sensitive: false
+    valueFrom:
+      configMapKeyRef:
+        key: region
+        name: aws-configuration-vpc-demo-3
+  - environmentVariable: true
+    key: AWS_ACCESS_KEY_ID
+    sensitive: true
+  - environmentVariable: true
+    key: AWS_SECRET_ACCESS_KEY
+    sensitive: true
+  - environmentVariable: true
+    key: AWS_SESSION_TOKEN
+    sensitive: true
+  - environmentVariable: true
+    key: CONFIRM_DESTROY
+    sensitive: false
+    value: '1'

@@ -5,3 +5,5 @@ resources:
 - vpc-demo-1/configmap.yaml
 - vpc-demo-2/workspace.yaml
 - vpc-demo-2/configmap.yaml
+- vpc-demo-3/workspace.yaml
+- vpc-demo-3/configmap.yaml
