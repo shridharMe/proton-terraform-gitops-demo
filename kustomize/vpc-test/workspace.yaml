@@ -27,14 +27,14 @@ spec:
         name: aws-configuration-vpc-test
   - environmentVariable: true
     key: AWS_ACCESS_KEY_ID
-    sensitive: true
+    #sensitive: true
     valueFrom:
       secretKeyRef:
         key: AWS_ACCESS_KEY_ID
         name: workspacesecrets
   - environmentVariable: true
     key: AWS_SECRET_ACCESS_KEY
-    sensitive: true
+    #sensitive: true
     valueFrom:
       secretKeyRef:
         key: AWS_SECRET_ACCESS_KEY
