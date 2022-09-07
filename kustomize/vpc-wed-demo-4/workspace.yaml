@@ -1,0 +1,25 @@
+apiVersion: app.terraform.io/v1alpha1
+kind: Workspace
+metadata:
+  name: vpc-wed-demo-4
+  namespace: edu
+spec:
+  module:
+    source: git::https://github.com/shridharMe/proton-terraform-demo//vpc-wed-demo-4/?ref=1.0.83
+  organization: shridharMe
+  outputs:
+  - key: vpc_id
+    moduleOutputName: vpc_id
+  secretsMountPath: /tmp/secrets
+  variables:
+  - environmentVariable: true
+    key: AWS_DEFAULT_REGION
+    sensitive: false
+    valueFrom:
+      configMapKeyRef:
+        key: region
+        name: aws-configuration-vpc-wed-demo-4
+  - environmentVariable: true
+    key: CONFIRM_DESTROY
+    sensitive: false
+    value: '1'
