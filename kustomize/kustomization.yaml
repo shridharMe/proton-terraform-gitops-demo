@@ -5,3 +5,5 @@ resources:
 - vpc-stage/configmap.yaml
 - vpc-perf/workspace.yaml
 - vpc-perf/configmap.yaml
+- vpc-preprod-1/workspace.yaml
+- vpc-preprod-1/configmap.yaml
