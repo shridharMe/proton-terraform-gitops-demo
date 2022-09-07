@@ -4,3 +4,4 @@ data:
 kind: ConfigMap
 metadata:
   name: aws-configuration-vpc-test
+  namespace: edu
