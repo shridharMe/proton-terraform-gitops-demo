@@ -26,20 +26,6 @@ spec:
         key: region
         name: aws-configuration-vpc-test
   - environmentVariable: true
-    key: AWS_ACCESS_KEY_ID
-    sensitive: false
-    valueFrom:
-      secretKeyRef:
-        key: AWS_ACCESS_KEY_ID
-        name: workspacesecrets
-  - environmentVariable: true
-    key: AWS_SECRET_ACCESS_KEY
-    sensitive: false
-    valueFrom:
-      secretKeyRef:
-        key: AWS_SECRET_ACCESS_KEY
-        name: workspacesecrets
-  - environmentVariable: true
     key: CONFIRM_DESTROY
     sensitive: false
     value: '1'
