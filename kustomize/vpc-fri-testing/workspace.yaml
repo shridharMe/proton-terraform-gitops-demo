@@ -1,0 +1,27 @@
+apiVersion: app.terraform.io/v1alpha1
+kind: Workspace
+metadata:
+  name: vpc-fri-testing
+  namespace: edu
+spec:
+  module:
+    source: git::https://github.com/shridharMe/proton-terraform-demo//vpc-fri-testing/?ref=1.0.90
+  organization: shridharMe
+  outputs:
+  - key: vpc_id
+    moduleOutputName: vpc_id
+  - key: vpc_security_group_id
+    moduleOutputName: vpc_security_group_id
+  secretsMountPath: /tmp/secrets
+  variables:
+  - environmentVariable: true
+    key: AWS_DEFAULT_REGION
+    sensitive: false
+    valueFrom:
+      configMapKeyRef:
+        key: region
+        name: aws-configuration-vpc-fri-testing
+  - environmentVariable: true
+    key: CONFIRM_DESTROY
+    sensitive: false
+    value: '1'

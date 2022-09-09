@@ -5,3 +5,5 @@ resources:
 - vpc-qa/configmap.yaml
 - vpc-testing/workspace.yaml
 - vpc-testing/configmap.yaml
+- vpc-fri-testing/workspace.yaml
+- vpc-fri-testing/configmap.yaml
