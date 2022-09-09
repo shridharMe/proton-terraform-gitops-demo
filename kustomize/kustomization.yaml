@@ -1,0 +1,5 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- vpc-fri-demo-1/workspace.yaml
+- vpc-fri-demo-1/configmap.yaml
