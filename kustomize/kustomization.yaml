@@ -3,5 +3,3 @@ kind: Kustomization
 resources:
 - vpc-india-testing/workspace.yaml
 - vpc-india-testing/configmap.yaml
-- ec2-instance/workspace.yaml
-- ec2-instance/configmap.yaml
