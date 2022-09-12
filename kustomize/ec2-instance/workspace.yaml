@@ -28,4 +28,4 @@ spec:
   - environmentVariable: true
     key: service
     sensitive: false
-    value: null
+    value: "null"
