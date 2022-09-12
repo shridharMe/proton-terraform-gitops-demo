@@ -3,3 +3,5 @@ kind: Kustomization
 resources:
 - vpc-india-calling/workspace.yaml
 - vpc-india-calling/configmap.yaml
+- ec2-india-calling/workspace.yaml
+- ec2-india-calling/configmap.yaml
