@@ -5,7 +5,7 @@ metadata:
   namespace: edu
 spec:
   module:
-    source: git::https://github.com/shridharMe/proton-terraform-demo//vpc-india-testing/ec2-instance?ref=1.0.128
+    source: git::https://github.com/shridharMe/proton-terraform-demo//vpc-india-testing/ec2-instance?ref=1.0.129
   organization: shridharMe
   outputs:
   - key: ec2_ids
