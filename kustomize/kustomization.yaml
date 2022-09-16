@@ -1,7 +1,0 @@
-apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomization
-resources:
-- vpc-india-calling/workspace.yaml
-- vpc-india-calling/configmap.yaml
-- ec2-india-calling/workspace.yaml
-- ec2-india-calling/configmap.yaml
