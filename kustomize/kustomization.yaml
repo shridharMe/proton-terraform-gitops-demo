@@ -5,3 +5,5 @@ resources:
 - vpc-backstage/configmap.yaml
 - topguns-backstage/workspace.yaml
 - topguns-backstage/configmap.yaml
+- topbuns-backstage-dev/workspace.yaml
+- topbuns-backstage-dev/configmap.yaml
