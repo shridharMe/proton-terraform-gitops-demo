@@ -3,5 +3,3 @@ kind: Kustomization
 resources:
 - vpc-backstage/workspace.yaml
 - vpc-backstage/configmap.yaml
-- topgun-ec2/workspace.yaml
-- topgun-ec2/configmap.yaml
