@@ -3,7 +3,3 @@ kind: Kustomization
 resources:
 - vpc-backstage/workspace.yaml
 - vpc-backstage/configmap.yaml
-- topcupcake-backstage/workspace.yaml
-- topcupcake-backstage/configmap.yaml
-- toppapad-backstage/workspace.yaml
-- toppapad-backstage/configmap.yaml
