@@ -3,3 +3,5 @@ kind: Kustomization
 resources:
 - topcupcake/workspace.yaml
 - topcupcake/configmap.yaml
+- topgun-backstage-dev/workspace.yaml
+- topgun-backstage-dev/configmap.yaml
