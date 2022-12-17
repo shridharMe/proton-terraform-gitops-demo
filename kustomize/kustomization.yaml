@@ -3,5 +3,3 @@ kind: Kustomization
 resources:
 - vpc-backstage/workspace.yaml
 - vpc-backstage/configmap.yaml
-- toploliops-backstage/workspace.yaml
-- toploliops-backstage/configmap.yaml
