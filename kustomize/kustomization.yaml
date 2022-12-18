@@ -3,5 +3,3 @@ kind: Kustomization
 resources:
 - topcupcake/workspace.yaml
 - topcupcake/configmap.yaml
-- ec2-popcon-backstage/workspace.yaml
-- ec2-popcon-backstage/configmap.yaml
