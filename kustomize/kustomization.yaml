@@ -3,5 +3,3 @@ kind: Kustomization
 resources:
 - vpc-argentina/workspace.yaml
 - vpc-argentina/configmap.yaml
-- footbal-mbappe/workspace.yaml
-- footbal-mbappe/configmap.yaml
