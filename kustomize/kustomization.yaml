@@ -3,7 +3,3 @@ kind: Kustomization
 resources:
 - topcupcake/workspace.yaml
 - topcupcake/configmap.yaml
-- ec2-wine-backstage/workspace.yaml
-- ec2-wine-backstage/configmap.yaml
-- ec2-cake-party/workspace.yaml
-- ec2-cake-party/configmap.yaml
