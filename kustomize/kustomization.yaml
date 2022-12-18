@@ -3,3 +3,5 @@ kind: Kustomization
 resources:
 - vpc-argentina/workspace.yaml
 - vpc-argentina/configmap.yaml
+- football-ec2-dev/workspace.yaml
+- football-ec2-dev/configmap.yaml
