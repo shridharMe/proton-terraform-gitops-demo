@@ -3,3 +3,5 @@ kind: Kustomization
 resources:
 - vpc-arch1/workspace.yaml
 - vpc-arch1/configmap.yaml
+- vpc-mars/workspace.yaml
+- vpc-mars/configmap.yaml
