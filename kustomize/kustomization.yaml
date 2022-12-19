@@ -3,3 +3,5 @@ kind: Kustomization
 resources:
 - voc-aestro/workspace.yaml
 - voc-aestro/configmap.yaml
+- dojo-team-app-instance/workspace.yaml
+- dojo-team-app-instance/configmap.yaml
